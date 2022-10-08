@@ -125,6 +125,29 @@ h6 {
   font-size: 18px;
 }
 
+
+.select-theme{
+  margin-right: auto;
+  margin-left: -100px;
+}
+#select-theme{
+  padding: 10px 70px 10px 20px ;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.form-control {
+	width: 150px;
+	padding: 2px;
+	background-image: url(/src/img/select-theme-drop-down.png); /* replace with anything */
+	background-repeat: no-repeat;
+	background-position: 90% center;
+  background-size: 25px 25px;
+  cursor: pointer;
+   
+}
+
+
+
 .header-right {
   display: flex;
   align-items: center;
@@ -487,7 +510,7 @@ h6 {
 .action-req {
   display: flex;
   align-items: center;
-  justify-content: space;
+  justify-content: space-between;
 }
 .arrow-images {
   display: flex;
